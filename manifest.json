@@ -1,0 +1,16 @@
+{
+    "name": "Lamalu",
+    "version": "1.0",
+    "description": "hum dee dum",
+    // "background": {
+    //   "scripts": ["background.js"],
+    //   "persistent": false
+    // },
+    "manifest_version": 2,
+    "content_scripts": [
+		{
+		    "matches": ["https://www.messenger.com/*"],
+		    "js": ["content_script.js"]
+		}
+	]
+}
